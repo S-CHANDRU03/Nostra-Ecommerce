@@ -2,7 +2,7 @@
 
 const container = document.querySelector(".container")
 const btns = document.querySelectorAll(".btn")
-const imagelist = ["bnr2","bnr1","bnr3"]
+const imagelist = ["bnr1","bnr2"]
 
 let index = 0;
 
