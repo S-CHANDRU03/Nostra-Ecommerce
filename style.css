@@ -594,7 +594,9 @@ body{
         display: inline-block;
         left: 0;
         height: 100vh;
+        overflow-y: auto;
         display: none;
+        position: fixed;
     }
 /* slider */    
     .container{
@@ -641,7 +643,7 @@ body{
 /* brands */    
     .brands{
         padding: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .brands .names{
         gap: 20px;
@@ -664,7 +666,7 @@ body{
 /* promise */
     .promise{
         gap: 5px;
-        margin-top: 20px;
+        margin-top: 10px;
      }
      .promise h3{
         font-size: xx-small;
@@ -693,7 +695,7 @@ body{
 /* newarrival */
      .newarrival{
         padding: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .newarrival h1{
         font-size: 22px;
@@ -728,7 +730,7 @@ body{
         height: 100%;
         display: block;
         border-radius: 5px;
-        width: 50px;
+        width: 51px;
         height: 70px;
     }
     
@@ -737,7 +739,7 @@ body{
     }
 /* mostwanted */
     .mostwanted{
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .mostwanted h1{
         font-size: 22px;
