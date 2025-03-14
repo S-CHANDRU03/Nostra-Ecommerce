@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Nostra-logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Cinzel:wght@400..900&family=Gabarito:wght@400..900&display=swap"
+        rel="stylesheet">
+    <!--fontawsome-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!--header offer-->
+<header class="header">
+    <p>Sign Up and</p>
+    <p class="off">GET 20% OFF</p>
+    <p>for your first order</p>
+    <p class="closehead">X</p>
+</header>
+
+<!--navbar-->
+<nav class="navbar">
+    <div class="compname">
+        <h1>Nostra</h1>
+    </div>
+    <div>
+        <i id="menuicon" class="fa-solid fa-xl fa-bars"></i>
+    </div>
+    <div class="menu">
+        <p class="nav-link"><a href="index.html">Home</a></p>
+        <p class="nav-link"><a href="./collections.html">Collections</a></p>
+        <p class="nav-link"><a href="./contact.html">Contact Us</a></p>
+    </div>
+</nav>
+
+<!--side nav-->
+<nav class="sidenav">
+    <div class="menu">
+        <div class="closenavbar">
+            <p id="closenav">X</p>
+        </div>
+        <div>
+        <p class="nav-link"><a href="index.html">Home</a></p><br>
+        <p class="nav-link"><a href="./collections.html">Collections</a></p><br>
+        <p class="nav-link"><a href="./contact.html">Contact Us</a></p>
+        </div>
+    </div>
+</nav>
+
+<!--filter section-->
+<div class="collections">
+     
+    <div class="fltrsection">
+        <div class="fltrcontainer">
+          <div class="filters">
+
+            <div class="occasion">
+                <h3>Types</h3>
+                <label for="casual-shirts"><input id="casual-shirts" type="checkbox" class="filter-checkbox" name="type" value="casual-shirts"> Casual-Shirts</label><br>
+                <label for="t-shirts"><input id="t-shirts" type="checkbox" class="filter-checkbox" name="type" value="t-shirts"> T-Shirts</label><br>
+                <label for="hoody"><input id="hoody" type="checkbox" class="filter-checkbox" name="type" value="hoody"> Hoody</label>
+            </div>
+            
+            <div class="colors">
+                <h3>Colors</h3>
+                <label for="red"><input id="red" type="checkbox" class="filter-checkbox" name="color" value="red"> Red</label><br>
+                <label for="blue"><input id="orange" type="checkbox" class="filter-checkbox" name="color" value="Orange"> Orange</label><br>
+                <label for="white"><input id="white" type="checkbox" class="filter-checkbox" name="color" value="white"> White</label><br>
+                <label for="green"><input id="green" type="checkbox" class="filter-checkbox" name="color" value="green"> Green</label>
+            </div>
+
+            <div class="arraivals">
+                <h3>Arraivals</h3>
+                <label for="old"><input id="new" type="checkbox" class="filter-checkbox" name="arrival" value="new"> New</label><br>
+                <label for="old"><input id="old" type="checkbox" class="filter-checkbox" name="arrival" value="old"> OLd</label>
+            </div>
+
+          </div>
+          <hr class="vertical-line">
+
+        </div>
+    </div>
+    <div class="drsscollection">
+        <div class="searchoptn">
+            <input class="search-input" placeholder="search">
+        </div>
+        <div class="dresses" id="collectioncontainer">
+            <div class="product" data-type="Casual-Shirts" data-color="Blue" data-arrival="New">
+                <img src="./images/cas1.JPG" alt="">
+                <h2 class="product-name">Floral Casual-Shirt blue</h2>
+                <p>₹300</p>
+            </div>
+            <div class="product" data-type="Hoody" data-color="white" data-arrival="New">
+                <img src="./images/hood1.JPG" alt="">
+                <h2 class="product-name">Classic White Hoody</h2>
+                <p>₹550</p>
+            </div>
+            <div class="product" data-type="T-Shirts" data-color="Blue" data-arrival="New">
+                <img src="./images/tsh1.jpeg" alt="">
+                <h2 class="product-name">Casual T-Shirt</h2>
+                <p>₹250</p>
+            </div>
+            <div class="product" data-type="T-Shirts" data-color="Green" data-arrival="Old">
+                <img src="./images/tsh2.jpeg" alt="">
+                <h2 class="product-name">Linen Green T-Shirt</h2>
+                <p>₹250</p>
+            </div>
+            <div class="product" data-type="Casual-Shirts" data-color="Green" data-arrival="New">
+                <img src="./images/cas2.JPG" alt="">
+                <h2 class="product-name">Leaf Casual-Shirt Green</h2>
+                <p>₹300</p>
+            </div>
+            <div class="product" data-type="Hoody" data-color="Red" data-arrival="New">
+                <img src="./images/hood2.JPG" alt="">
+                <h2 class="product-name">Classic Red Hoody</h2>
+                <p>₹550</p>
+            </div>
+            <div class="product" data-type="Hoody" data-color="Gray" data-arrival="Old">
+                <img src="./images/hood3.JPG" alt="">
+                <h2 class="product-name">Classic Hoody Gray</h2>
+                <p>₹550</p>
+            </div>
+            <div class="product" data-type="T-Shirts" data-color="Green" data-arrival="New">
+                <img src="./images/tsh3.jpeg" alt="">
+                <h2 class="product-name">Striped T-Shirt</h2>
+                <p>₹250</p>
+            </div>
+            <div class="product" data-type="Casual-Shirts" data-color="Orange" data-arrival="Old">
+                <img src="./images/cas3.JPG" alt="">
+                <h2 class="product-name">Floral Casual-Shirt orange</h2>
+                <p>₹300</p>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<!--news letter-->
+<div class="newsltr">
+    <h1 id="newshead">Join Our News Letter</h1>
+    <p class="newspar">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <input type="text" placeholder="Enter Your Email">
+    <button>Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+</div>
+
+<!--footer-->
+<footer class="footer">
+  
+    <h1>Nostra</h1>
+    <p>"Redefining Style Since 1999 – Where Quality Meets Fashion!"</p>
+    <div class="icons">
+        <i id="icon" class="fa-brands fa-2x fa-square-instagram"></i>
+        <i id="icon" class="fa-brands fa-2x fa-square-twitter"></i>
+        <i id="icon" class="fa-brands fa-2x fa-square-facebook"></i>
+    </div>
+    <p>@2023 Nostra.com</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
