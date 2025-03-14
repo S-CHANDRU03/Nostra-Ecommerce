@@ -119,27 +119,27 @@ body{
     color: white;
     position: absolute;
     top: 45%;
-    left: 100px;  
+    left: 150px;  
 }
 .overlay button{
     background-color: white;
     position: absolute;
     top: 62%;
-    left: 100px;
+    left: 150px;
     width: 100px;
     height: 30px;
     border-radius: 7px;
     cursor: pointer;
 }
 .btn-left{
-    color: rgb(98, 98, 98);   
+    color: rgb(255, 255, 255);   
     position: absolute;
     top: 45%;
     cursor: pointer;
     z-index: 1;
 }
 .btn-right{
-    color: rgb(98, 98, 98);   
+    color: rgb(255, 255, 255);   
     position: absolute;
     right: 0;
     top: 45%;
@@ -623,18 +623,20 @@ body{
         font-size: 12px;
     }
     .btn-left{
-        color: rgb(255, 255, 255);   
+        color: rgb(165, 165, 165);   
         position: absolute;
         top: 35%;
         cursor: pointer;
         z-index: 1;
+        opacity: 0.5;
     }
     .btn-right{
-        color: white;   
+        color: rgb(165, 165, 165);   
         position: absolute;
         right: 0;
         top: 35%;
         cursor: pointer;
+        opacity: 0.5;
     }
 /* brands */    
     .brands{
