@@ -730,7 +730,7 @@ body{
         height: 100%;
         display: block;
         border-radius: 5px;
-        width: 51px;
+        width: 52px;
         height: 70px;
     }
     
@@ -762,7 +762,7 @@ body{
         height: 100px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         position: relative;
-        margin-top: 30px;
+        margin-top: 20px;
         
     }
     .most1 img{
