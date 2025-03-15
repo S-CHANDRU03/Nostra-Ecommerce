@@ -4,20 +4,28 @@
 ## ✨ Features
 
 🔹 Modern UI/UX with responsive design
+
 🔹 Dynamic Product Display using JavaScript
+
 🔹 Interactive Shopping Cart with DOM manipulation
+
 🔹 Smooth Animations & Hover Effects
+
 🔹 Mobile-Friendly & Cross-Browser Compatible
 
 ## 🛠️ Tech Stack
 
 🔹HTML5 – Semantic structure
+
 🔹CSS3 – Modern styling with flexbox & grid
+
 🔹JavaScript (ES6) – DOM manipulation & dynamic content
 
 ## 🚀 How to Use
 🔹Clone the repo: "git clone -> https://github.com/S-CHANDRU03/Nostra-Ecommerce"
+
 🔹Open "index.html" in your browser
+
 🔹Enjoy browsing & shopping!
 
 ## 📌 Future Enhancements
