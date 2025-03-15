@@ -571,7 +571,879 @@ body{
 #icon {
     font-size: 32px;
 }
+@media screen and (max-width:1000px) {
+    /* header */
+    .header{
+        font-size: 20px;
+    }
+/* navbar */    
+    .navbar{
+        margin-bottom: 10px;
+    }   
+    #menuicon{
+        display: none;
+    }
+/* sidenav */    
+    .sidenav{
+        display: inline-block;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
+        display: none;
+        position: fixed;
+    }
+/* slider */    
+    .container{
+        height: 400px;
+    }
+    .overlay{
+        height: 400px;
+    }
+    .overlay h1{
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 120px; 
+        font-size: 26px; 
+    }
+    .overlay button{
+        background-color: white;
+        position: absolute;
+        top: 52%;
+        left: 120px;
+        width: 100px;
+        height: 35px;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .btn-left{
+        color: rgb(255, 255, 255);   
+        position: absolute;
+        top: 35%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .btn-right{
+        color: rgb(255, 255, 255);   
+        position: absolute;
+        right: 0;
+        top: 35%;
+        cursor: pointer;
+    }
+/* brands */    
+    .brands{
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .brands h1{
+        font-size: xx-large;
+    }
+    .brands .names{
+        gap: 20px;
+    }
+    .brands img{
+        width: 150px;
+        height: 50px;
+    }
+/* assurance */    
+    .assurance{
+        margin-top: 20px;
+    }
+    .assurance h1{
+        font-size: x-large;
+    }
+    .assurance p{
+        font-size: x-large;
+        text-align: right;
+    }
+/* promise */
+    .promise{
+        gap: 5px;
+        margin-top: 10px;
+     }
+     .promise h3{
+        font-size: large;
+     }
+     .promise p{
+        font-size: large;
+     }
+     .promise img {
+         width: 40px;
+         margin-bottom: 5px;
+     }
+     .promise2 img{
+         width: 40px;
+         margin-bottom: 5px;
+     }
+     .promise4 img{
+         width: 45px;
+         margin-bottom: 0;
+     }
+     .promise .promise1,.promise2,.promise3,.promise4 {
+         background-color: rgb(216, 216, 216);
+         width: 560px;
+         padding: 10px;
+         border-radius: 5px;
+     }
+/* newarrival */
+     .newarrival{
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .newarrival h1{
+        font-size: 32px;
+    }
+    .container1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .newarr1,.newarr2,.newarr3,.newarr4 {
+        position: relative;
+        display: inline-block;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .newarr1 button,.newarr2 button,.newarr3 button,.newarr4 button{
+        position: absolute;
+        background-color: rgb(207, 207, 207);
+        left: 80px;
+        top: 100px;
+        width: 70px;
+        height: 30px;
+        z-index: 1;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+    }
+    .newarr1 img,.newarr2 img,.newarr3 img,.newarr4 img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 5px;
+        width: 212px;
+        height: 212px;
+    }
+    
+    .newarr1::after,.newarr2::after,.newarr3::after,.newarr4::after {
+        border-radius: 5px;
+    }
+/* mostwanted */
+    .mostwanted{
+        margin-top: 10px;
+    }
+    .mostwanted h1{
+        font-size: 32px;
+    }
+    .container2{
+        padding-left: 2px;
+        padding-right: 2px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 260px;
+        gap: 15px;
+        margin: 2px auto;
+        overflow-x: auto;
+    }
+    .most1{
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 10px;
+        width: 212px;
+        height: 212px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+        margin-top: 20px;
+        
+    }
+    .most1 img{
+        width: 212px;
+        height: 212px;
+        border-radius: 10px;
+    }
+    
+    #btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8{
+        display: inline-block;
+        font-size: 28px;
+        right: 5px;
+        bottom: 5px;
+    }   
+    .most1 .btn{
+        border-radius: 2px;
+        left: 5px;
+        top: 5px;
+        width: 50px;
+        height: 25px;
+        font-size:large;
+    }
+/* ltd offer */
+    .ltdoffer{
+        padding: 20px;
+    }
+    .offer{
+        width: fill;
+        height: 300px;
+    }
+    .offer img{
+        position: absolute;
+        top: 18px;
+        left: 50px;
+        width: 350px;
+    }
+    .offertag{
+        position: absolute;
+        top: 90px;
+        right: 60px;
+        font-size: 18px;
+        color: white;
+        width: 400px;
+    }
+    .offer button{
+        width: 90px;
+        height: 30px;
+        font-size: small;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        margin-top: 5px;
+    }
+/* newsltr */
+    .newsltr{
+        padding: 20px;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    #newshead{
+        font-size: 38px;
+    }
+    .newspar{
+        font-size: 20px;
+    }
+    .newsltr input{
+        width: 700px;
+        height: 10px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    .newsltr ::placeholder{
+        padding: 0;
+        font-size: 12px;
+    }
+    .newsltr button{
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 40px;
+        font-size: large;
+        border-radius: 5px;
+        gap: 5px;
+        cursor: pointer;
+        border: none;
+        outline: none; 
+    }
+/* footer */
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .footer h1{
+        font-size: 34px;
+    }
+    .footer p{
+        font-size: 22px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    #icon {
+        font-size: 28px;
+    }
+/* collections */
+.collections{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.fltrsection{
+    width: 400px;
+}
+.fltrcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+    width: 150px;
+}
+.filters h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.occasion input,.colors input,.arraivals input{
+    margin-bottom: 10px;
+}
+.occasion label,.colors label,.arraivals label{
+    font-size: 18px;
+}
+.vertical-line{
+    width: 2px;
+    height: 820px;
+    background-color: black;
+}
 
+/* dresscollection */
+
+.drsscollection{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+.dresses{
+    padding-left: 20px;
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product h2{
+    font-size: 14px;
+}
+.product p{
+    font-size: 14px;
+}
+.dresses img{
+    width: 220px;
+    height: 200px;
+    margin-left: 6px;  
+}
+
+.dresses{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+}
+
+.searchoptn input{
+    width: 720px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+/* contact form */
+.contactfrm{
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+.frmcontainer{
+    background-color: black;
+    color: white;
+    width: 750px;
+    margin-left: 90px;
+    height: 510px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.frmcontainer h1{
+    text-align: left;
+    font-size: 32px;
+}
+.frmcontainer p{
+    font-size: 22px;
+}
+.frmcontainer input{
+    width: 735px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.frmcontainer textarea{
+    width: 735px;
+    height: 100px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.frmcontainer button{
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(93, 93, 255);
+    color: white;
+    font-size: 24px;
+}
+.frmcontainer button:hover{
+    background-color: blue;
+}
+}
+@media screen and (max-width:800px) {
+    /* header */
+    .header{
+        font-size: 16px;
+    }
+/* navbar */    
+    .navbar{
+        margin-bottom: 10px;
+    }
+    .navbar .menu {
+        display: none;
+    }    
+    #menuicon{
+        display: inline-block;
+        cursor: pointer;
+    }
+/* sidenav */    
+    .sidenav{
+        display: inline-block;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
+        display: none;
+        position: fixed;
+    }
+/* slider */    
+    .container{
+        height: 300px;
+    }
+    .overlay{
+        height: 300px;
+    }
+    .overlay h1{
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 120px; 
+        font-size: 18px; 
+    }
+    .overlay button{
+        background-color: white;
+        position: absolute;
+        top: 55%;
+        left: 120px;
+        width: 70px;
+        height: 25px;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .btn-left{
+        color: rgb(255, 255, 255);   
+        position: absolute;
+        top: 35%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .btn-right{
+        color: rgb(255, 255, 255);   
+        position: absolute;
+        right: 0;
+        top: 35%;
+        cursor: pointer;
+    }
+/* brands */    
+    .brands{
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .brands .names{
+        gap: 20px;
+    }
+    .brands img{
+        width: 100px;
+        height: 40px;
+    }
+/* assurance */    
+    .assurance{
+        margin-top: 20px;
+    }
+    .assurance h1{
+        font-size: large;
+    }
+    .assurance p{
+        font-size: large;
+        text-align: right;
+    }
+/* promise */
+    .promise{
+        gap: 5px;
+        margin-top: 10px;
+     }
+     .promise h3{
+        font-size: small;
+     }
+     .promise p{
+        font-size: small;
+     }
+     .promise img {
+         width: 30px;
+         margin-bottom: 5px;
+     }
+     .promise2 img{
+         width: 30px;
+         margin-bottom: 5px;
+     }
+     .promise4 img{
+         width: 35px;
+         margin-bottom: 0;
+     }
+     .promise .promise1,.promise2,.promise3,.promise4 {
+         background-color: rgb(216, 216, 216);
+         width: 560px;
+         padding: 5px;
+         border-radius: 5px;
+     }
+/* newarrival */
+     .newarrival{
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .newarrival h1{
+        font-size: 22px;
+    }
+    .container1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .newarr1,.newarr2,.newarr3,.newarr4 {
+        position: relative;
+        display: inline-block;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .newarr1 button,.newarr2 button,.newarr3 button,.newarr4 button{
+        position: absolute;
+        background-color: rgb(207, 207, 207);
+        left: 60px;
+        top: 70px;
+        width: 60px;
+        height: 25px;
+        z-index: 1;
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        font-size: 12px;
+    }
+    .newarr1 img,.newarr2 img,.newarr3 img,.newarr4 img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 5px;
+        width: 162px;
+        height: 162px;
+    }
+    
+    .newarr1::after,.newarr2::after,.newarr3::after,.newarr4::after {
+        border-radius: 5px;
+    }
+/* mostwanted */
+    .mostwanted{
+        margin-top: 10px;
+    }
+    .mostwanted h1{
+        font-size: 22px;
+    }
+    .container2{
+        padding-left: 2px;
+        padding-right: 2px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 210px;
+        gap: 15px;
+        margin: 2px auto;
+        overflow-x: auto;
+    }
+    .most1{
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 10px;
+        width: 162px;
+        height: 162px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+        margin-top: 20px;
+        
+    }
+    .most1 img{
+        width: 162px;
+        height: 162px;
+        border-radius: 10px;
+    }
+    
+    #btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8{
+        display: inline-block;
+        font-size: 24px;
+        right: 5px;
+        bottom: 5px;
+    }   
+    .most1 .btn{
+        border-radius: 2px;
+        left: 5px;
+        top: 5px;
+        width: 40px;
+        height: 20px;
+        font-size:small;
+    }
+/* ltd offer */
+    .ltdoffer{
+        padding: 20px;
+    }
+    .offer{
+        width: fill;
+        height: 250px;
+    }
+    .offer img{
+        position: absolute;
+        top: 12px;
+        left: 50px;
+        width: 300px;
+    }
+    .offertag{
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        font-size: 18px;
+        color: white;
+        width: 350px;
+    }
+    .offer button{
+        width: 70px;
+        height: 20px;
+        font-size: x-small;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        margin-top: 5px;
+    }
+/* newsltr */
+    .newsltr{
+        padding: 20px;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    #newshead{
+        font-size: 32px;
+    }
+    .newspar{
+        font-size: 16px;
+    }
+    .newsltr input{
+        width: 600px;
+        height: 5px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    .newsltr ::placeholder{
+        padding: 0;
+        font-size: 12px;
+    }
+    .newsltr button{
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 40px;
+        font-size: large;
+        border-radius: 5px;
+        gap: 5px;
+        cursor: pointer;
+        border: none;
+        outline: none; 
+    }
+/* footer */
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .footer h1{
+        font-size: 28px;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    #icon {
+        font-size: 20px;
+    }
+/* collections */
+.collections{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.fltrsection{
+    width: 600px;
+}
+.fltrcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+}
+.filters h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.occasion input,.colors input,.arraivals input{
+    margin-bottom: 10px;
+}
+.occasion label,.colors label,.arraivals label{
+    font-size: 14px;
+}
+.vertical-line{
+    width: 2px;
+    height: 730px;
+    background-color: black;
+}
+
+/* dresscollection */
+
+.drsscollection{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+.dresses{
+    padding-left: 20px;
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    width: 170px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product h2{
+    font-size: 14px;
+}
+.product p{
+    font-size: 14px;
+}
+.dresses img{
+    width: 170px;
+    height: 170px;
+    margin-left: 6px;  
+}
+
+.dresses{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+}
+
+.searchoptn input{
+    width: 570px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+/* contact form */
+.contactfrm{
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+.frmcontainer{
+    background-color: black;
+    color: white;
+    width: 550px;
+    margin-left: 90px;
+    height: 410px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.frmcontainer h1{
+    text-align: left;
+    font-size: 28px;
+}
+.frmcontainer p{
+    font-size: 18px;
+}
+.frmcontainer input{
+    width: 535px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.frmcontainer textarea{
+    width: 535px;
+    height: 70px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.frmcontainer button{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(93, 93, 255);
+    color: white;
+    font-size: 16px;
+}
+.frmcontainer button:hover{
+    background-color: blue;
+}
+}
 
 @media screen and (max-width:600px) {
 /* header */
