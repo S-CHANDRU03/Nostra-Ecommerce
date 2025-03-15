@@ -30,7 +30,9 @@
 
 ## 📌 Future Enhancements
 ✅ Add backend support for real checkout
+
 ✅ Improve product filtering & search functionality
+
 ✅ Implement user authentication
 
 ## 🌟 Contribute
