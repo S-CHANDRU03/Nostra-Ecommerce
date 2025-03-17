@@ -163,6 +163,9 @@ body{
     width: 150px;
     height: 70px;
 }
+.brands h1{
+    font-size: 32px;
+}
 
 /* assurance */
 
@@ -637,7 +640,7 @@ body{
         margin-top: 10px;
     }
     .brands h1{
-        font-size: xx-large;
+        font-size: 32px;
     }
     .brands .names{
         gap: 20px;
@@ -1075,6 +1078,9 @@ body{
     .brands{
         padding: 20px;
         margin-top: 10px;
+    }
+    .brands h1{
+        font-size: 22px;
     }
     .brands .names{
         gap: 20px;
@@ -1516,6 +1522,9 @@ body{
     .brands{
         padding: 20px;
         margin-top: 10px;
+    }
+    .brands h1{
+        font-size: 22px;
     }
     .brands .names{
         gap: 20px;
